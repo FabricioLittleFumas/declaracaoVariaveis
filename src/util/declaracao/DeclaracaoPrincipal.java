@@ -17,5 +17,17 @@ public class DeclaracaoPrincipal {
 		System.out.println(idadeAnoQueVem);
 		
 		
+		//atribuicao de valores e utilizacao de operadores em variaveis em Java
+		
+		int cinquenta = 10+40;
+		int cinquentaMinus = 100-50;
+		int cinquentaMulti = 2*25;
+		int cinquentaDiv = 100/2;
+		
+		System.out.println(cinquenta);
+		System.out.println(cinquentaMinus);
+		System.out.println(cinquentaMulti);
+		System.out.println(cinquentaDiv);
+		
 	}
 }
