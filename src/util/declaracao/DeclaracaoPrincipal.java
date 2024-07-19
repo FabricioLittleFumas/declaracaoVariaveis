@@ -63,15 +63,32 @@ public class DeclaracaoPrincipal {
 		
 		//casting
 		//moldando valor dos numeros inteiros
-		double pi = 3.14;
-		int valorInteiroPi = (int) pi;
-		System.out.println(valorInteiroPi);
+//		double pi = 3.14;
+//		int valorInteiroPi = (int) pi;
+//		System.out.println(valorInteiroPi);
+//		
+//		long valueParaLong = 94954954;
+//		int valorIntLong = (int) valueParaLong;
+//		
+//		System.out.println(valueParaLong);
+//		System.out.println(valorIntLong);
 		
-		long valueParaLong = 94954954;
-		int valorIntLong = (int) valueParaLong;
+		//utilizacao de estrutura if / else 
+		int idade = 15;
+		boolean amigoDoDono = false;
+		if (idade < 18 && amigoDoDono == false) {
+			System.out.println("menor de idade e nao pode entrar");
+		}else {
+			System.out.println("maior de idade");
+		}
 		
-		System.out.println(valueParaLong);
-		System.out.println(valorIntLong);
+		while (idade < 18) {
+			System.out.println(idade);
+			idade += 1;
+		}
+		for (int i = 0; i < 10; i++) {
+			System.out.println(i);
+		}
 		
 		
 	}
