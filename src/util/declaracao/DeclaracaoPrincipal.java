@@ -30,18 +30,36 @@ public class DeclaracaoPrincipal {
 //		System.out.println(cinquentaDiv);
 		
 		//utilizadao de variavel do tipo double
-		double valor = 3.14;
-		System.out.println(valor);
-		double x = 10 * 2; 
-		System.out.println(x);
+//		double valor = 3.14;
+//		System.out.println(valor);
+//		double x = 10 * 2; 
+//		System.out.println(x);
 		
 		//variavel do tipo boolean armazena verdadeiro ou falso
-		boolean vrdd = true;
-		System.out.println(vrdd);
-		int idade = 15;
-		boolean maiorDeIdade = idade >= 18;
-		System.out.println(maiorDeIdade);
+//		boolean vrdd = true;
+//		System.out.println(vrdd);
+//		int idade = 15;
+//		boolean maiorDeIdade = idade >= 18;
+//		System.out.println(maiorDeIdade);
 		
+		
+		//utilizando variavel do tipo char
+//		char c = 'x';
+//		System.out.println(c);
+		
+		//exercicios
+		
+		int gastoMesJaneiro;
+		gastoMesJaneiro = 15000;
+		int gastoMesFevereiro;
+		gastoMesFevereiro = 23000;
+		int gastoMesMarco;
+		gastoMesMarco = 17000;
+		
+		int gastoTotal = gastoMesJaneiro + gastoMesFevereiro + gastoMesMarco;
+		System.out.println(gastoTotal);
+		double mediaTrimestre = gastoTotal / 3;
+		System.out.println(mediaTrimestre);
 		
 		
 		
