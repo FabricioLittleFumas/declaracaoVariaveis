@@ -49,18 +49,29 @@ public class DeclaracaoPrincipal {
 		
 		//exercicios
 		
-		int gastoMesJaneiro;
-		gastoMesJaneiro = 15000;
-		int gastoMesFevereiro;
-		gastoMesFevereiro = 23000;
-		int gastoMesMarco;
-		gastoMesMarco = 17000;
+//		int gastoMesJaneiro;
+//		gastoMesJaneiro = 15000;
+//		int gastoMesFevereiro;
+//		gastoMesFevereiro = 23000;
+//		int gastoMesMarco;
+//		gastoMesMarco = 17000;
+//		
+//		int gastoTotal = gastoMesJaneiro + gastoMesFevereiro + gastoMesMarco;
+//		System.out.println(gastoTotal);
+//		double mediaTrimestre = gastoTotal / 3;
+//		System.out.println(mediaTrimestre);
 		
-		int gastoTotal = gastoMesJaneiro + gastoMesFevereiro + gastoMesMarco;
-		System.out.println(gastoTotal);
-		double mediaTrimestre = gastoTotal / 3;
-		System.out.println(mediaTrimestre);
+		//casting
+		//moldando valor dos numeros inteiros
+		double pi = 3.14;
+		int valorInteiroPi = (int) pi;
+		System.out.println(valorInteiroPi);
 		
+		long valueParaLong = 94954954;
+		int valorIntLong = (int) valueParaLong;
+		
+		System.out.println(valueParaLong);
+		System.out.println(valorIntLong);
 		
 		
 	}
