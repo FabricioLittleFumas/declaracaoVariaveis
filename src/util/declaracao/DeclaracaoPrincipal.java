@@ -74,22 +74,45 @@ public class DeclaracaoPrincipal {
 //		System.out.println(valorIntLong);
 		
 		//utilizacao de estrutura if / else 
-		int idade = 15;
-		boolean amigoDoDono = false;
-		if (idade < 18 && amigoDoDono == false) {
-			System.out.println("menor de idade e nao pode entrar");
-		}else {
-			System.out.println("maior de idade");
-		}
-		
-		while (idade < 18) {
-			System.out.println(idade);
-			idade += 1;
-		}
-		for (int i = 0; i < 10; i++) {
+//		int idade = 15;
+//		boolean amigoDoDono = false;
+//		if (idade < 18 && amigoDoDono == false) {
+//			System.out.println("menor de idade e nao pode entrar");
+//		}else {
+//			System.out.println("maior de idade");
+//		}
+//		
+//		while (idade < 18) {
+//			System.out.println(idade);
+//			idade += 1;
+//		}
+//		for (int i = 0; i < 10; i++) {
+//			System.out.println(i);
+//		}
+//		Imprima todos os números de 150 a 300.
+		for (int i = 150; i < 300; i++) {
 			System.out.println(i);
 		}
+//		Imprima a soma de 1 até 1000.
+		int soma = 0;
+		for (int i = 1; i < 1000; i++) {
+			soma += i;
+		}
+		System.out.println(soma);
+//		Imprima todos os múltiplos de 3, entre 1 e 100.
+		for (int i = 1; i < 100; i++) {
+			if (i % 3 == 0) {
+				System.out.println(i);
+			}
+		}
 		
-		
+		long fat = 1;
+		for (int i = 0; i < 60; i++) {
+			for (int j = 1; j <= i; j++) {
+				fat = fat * j;
+			}
+			System.out.println("fatorial de " + i + "é " + fat);
+			fat = 1;
+		}
 	}
 }
